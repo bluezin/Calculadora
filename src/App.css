@@ -47,7 +47,7 @@ h1 {
   }
   body {
     overflow: hidden;
-    margin-top: 30px;
+    margin-top: 8px;
   }
 
   .row {
@@ -114,6 +114,9 @@ h1 {
 }
 
 @media screen and (max-width: 532px) {
+  body{
+    margin-top: 75px;
+  }
   .img {
     position: absolute;
     bottom: 1px;
