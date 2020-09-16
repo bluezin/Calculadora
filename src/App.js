@@ -91,14 +91,14 @@ function App() {
       <img
         className="img"
         src={gatito}
-        style={{ position: "fixed", marginTop: -80 }}
+        style={{ position: "fixed", marginTop: -20 }}
       />
       <strong
         className="strong_2 img"
         style={{
           position: "fixed",
           color: "black",
-          marginTop: -6,
+          marginTop: 60,
           marginLeft: 14,
         }}
       >
