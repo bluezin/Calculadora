@@ -19,6 +19,12 @@ button {
   flex-wrap: wrap;
 }
 
+
+h1 {
+  text-align: right;
+  margin-top: 1px;
+  margin-right: 12px;
+}
 .h1 {
   background-color: coral;
   border-radius: 10px;
@@ -29,11 +35,6 @@ button {
   padding-top: 10px;
   padding-left: 10px;
 }
-h1 {
-  text-align: right;
-  margin-top: 1px;
-  margin-right: 12px;
-}
 
 @media screen and (max-width: 1029px) {
   .App {
@@ -42,6 +43,7 @@ h1 {
 }
 
 @media screen and (max-width: 1600px) {
+  
   img{
     width: 100px;
   }
@@ -76,6 +78,7 @@ h1 {
     bottom: 275px;
     left: 103px;
   }
+  
 }
 
 @media screen and (max-width: 889px) {
@@ -142,6 +145,7 @@ h1 {
   .row {
     width: 74%;
   }
+ 
 }
 
 .content {

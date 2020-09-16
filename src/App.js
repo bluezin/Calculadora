@@ -47,7 +47,7 @@ function App() {
     if (firstNumber.length !== 0) {
       const todo = [...secondNumber, firstNumber.join("")];
       const resultados = todo.reduce((a, b) => {
-        return a + b;
+        return Number(a) + Number(b);
       });
       setResult({ operator: "+", resolucion: resultados });
     }
@@ -64,26 +64,27 @@ function App() {
     }
   };
   const handleResult = () => {
-    handleContent();
+    if (firstNumber.length !== 0 && secondNumber.length !== 0) {
+      handleContent();
 
-    switch (result.operator) {
-      case "*":
-        handleMultiplicacion();
-        // console.log(firstNumber.length);
-        break;
-      case "-":
-        handleRest();
-        break;
-      case "/":
-        handleDiv();
-        break;
-      case "+":
-        handleSum();
-      default:
-        break;
+      switch (result.operator) {
+        case "*":
+          handleMultiplicacion();
+          break;
+        case "-":
+          handleRest();
+          break;
+        case "/":
+          handleDiv();
+          break;
+        case "+":
+          handleSum();
+        default:
+          break;
+      }
+      setFirtsNumber("");
+      setSecondNumber("");
     }
-    setFirtsNumber("");
-    setSecondNumber("");
   };
 
   return (
