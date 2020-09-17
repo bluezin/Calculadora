@@ -124,27 +124,27 @@ const Buttons = ({
           </button>
           <div className="col">
             <button
-              style={{ backgroundColor: " #757575" }}
+              style={{ backgroundColor: "#7973FF" }}
               onClick={handleMultiplicacion}
             >
               x
             </button>
-            <button onClick={handleDiv} style={{ backgroundColor: " #757575" }}>
+            <button onClick={handleDiv} style={{ backgroundColor: "#7973FF " }}>
               ÷
             </button>
             <button
               onClick={handleRest}
-              style={{ backgroundColor: " #757575" }}
+              style={{ backgroundColor: "#7973FF" }}
             >
               -
             </button>
-            <button onClick={handleSum} style={{ backgroundColor: "#757575" }}>
+            <button onClick={handleSum} style={{ backgroundColor: "#7973FF" }}>
               +
             </button>
             <button
               className="igual"
               onClick={handleResult}
-              style={{ backgroundColor: "#558B2F" }}
+              style={{ backgroundColor: "#B3B6FF " }}
             >
               =
             </button>
