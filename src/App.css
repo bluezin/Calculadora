@@ -4,8 +4,8 @@
 button {
   font-family: "Ranchers", cursive;
 }
-.strong_2{
-  font-family: 'Heebo', sans-serif;
+.strong_2 {
+  font-family: "Heebo", sans-serif;
 }
 
 .App {
@@ -16,9 +16,7 @@ button {
   height: 480px;
   background-color: blanchedalmond;
   border-radius: 30px;
-  flex-wrap: wrap;
 }
-
 
 h1 {
   text-align: right;
@@ -43,8 +41,7 @@ h1 {
 }
 
 @media screen and (max-width: 1600px) {
-  
-  img{
+  img {
     width: 100px;
   }
   body {
@@ -78,7 +75,6 @@ h1 {
     bottom: 275px;
     left: 103px;
   }
-  
 }
 
 @media screen and (max-width: 889px) {
@@ -117,7 +113,7 @@ h1 {
 }
 
 @media screen and (max-width: 532px) {
-  body{
+  body {
     margin-top: 75px;
   }
   .img {
@@ -145,7 +141,12 @@ h1 {
   .row {
     width: 74%;
   }
- 
+}
+
+@media screen and (max-width: 252px) {
+  .App {
+    width: clamp(223px, 50vmin, 800px);
+  }
 }
 
 .content {
