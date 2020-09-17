@@ -178,6 +178,7 @@ button {
   position: relative;
   bottom: 64px;
   right: 3px;
+  cursor: pointer;
 }
 
 .strong_2:before {
